@@ -1,1 +1,84 @@
+/*
+*nav
+*/
+ .navbar-default {
+  background-color: #FFFFFF;
+  border: none;
+  padding-top: 20px;
+}
 
+.navbar-toggle {
+  margin-left: 20px;
+}
+
+/*
+*section 1
+*/
+.section-1 {
+  background-image: url("../assets/images/taxi.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 125vh;
+  width: 100%;
+}
+
+.cuadro {
+  background-color: #FFD700;
+  color: #FFFFFF;
+  height: 60vh;
+  margin-top: 30%;
+}
+
+.btn-cuadro {
+  background-color: #FFFFFF;
+  border: none;
+  color: #000000;
+}
+.btn-cuadro:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.hr {
+margin-top: 10px;
+text-align: center;
+}
+
+.abajo {
+  margin-top: 20px;
+}
+
+/*
+*section2
+*/
+.section-2 {
+  border: 1px solid #000;
+  height: 100vh;
+}
+
+
+/*
+*section3
+*/
+.section-3 {
+  border: 1px solid #000;
+  height: 100vh;
+}
+
+
+/*
+*section4
+*/
+.section-4 {
+  border: 1px solid #000;
+  height: 100vh;
+}
+
+
+/*
+*section5
+*/
+.section-5 {
+  border: 1px solid #000;
+  height: 100vh;
+}
