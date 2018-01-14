@@ -9,6 +9,7 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
  </head>
 
  <body>
@@ -52,7 +53,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
    <!-- section one -->
    <section class="row col-md-12 center-block section-1">
     <section class="row col-md-5 col-sm-7 pull-right">
-     <div class="jumbotron yellow-box">
+      <!-- -->
+     <div class="jumbotron yellow-box-desktop">
       <h3>Disfruta del viaje</h3>
       <h3>Eres dueño de tu tiempo</h3>
       <br/>
@@ -71,6 +73,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
      </div>
     </section>
 
+    <!-- yellow-box-mobile -->
+     <section class="jumbotron col-sm-10 pull-right yellow-box-mobile">
+      <h1 class="display-3">Comienza a viajar con
+       <img src="assets/images/logoBlanco.png" alt="logo">
+      </h1>
+      <button type= "button" class= "col-sm-7 btn btn-primary btn-lg btn-app" data-toggle= "modal" data-target= "#exampleModal" data-whatever= "@getbootstrap" >
+       Descarga el app
+      </button>
+     </section>
+
+
     <!-- modal starts session -->
     <section id="myModal" class="modal fade" role="dialog">
      <div class="modal-dialog">
@@ -81,7 +94,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
          <img src="assets/images/foto.png" alt="photo">
        </div>
        <div class="modal-body box-modal-1">
-        <div class="col-md-6 input-modal-1">
+        <div class="col-md-6 col-sm-6 input-modal-1">
          <form>
           <div class="input-group input-box1">
            <span class="input-group-addon">
@@ -128,6 +141,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
    <!-- section two -->
    <section class="row col-md-12 center-block section-2">
     <div class="col-md-10 center-block box">
+      <h1 class="col-sm-offset-3 txt-mobile">La nueva app</h1>
      <img class="mobile" src="assets/images/iPhone6Plus.png" alt="mobile">
       <div class=" col-md-4 pull-right txt">
        <h3>Descarga la nueva app</h3>
@@ -143,6 +157,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
        </p>
       </div>
     </div>
+    <h2 class="col-sm-offset-1 txt-mobile">Llega a tu destino aún más rápido</h2>
    </section>
 
 
@@ -250,7 +265,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
 
    <!-- section four -->
    <section class="row col-md-12 center-block section-4">
-    <div class="col-md-5 input">
+    <div class="col-md-5 col-sm-12 input">
      <h4>Tarifas</h4>
      <p>Consulta las tarifas LabCar aquí:</p>
      <form class="form-horizontal">
@@ -319,7 +334,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
      </ul>
     </div>
 
-    <div class="col-md-3 pull-right store">
+    <div class="col-md-3 col-sm-3 pull-right store">
      <a href="https://www.apple.com/mx/ios/app-store/">
        <img class="store1" src="assets/images/appstore.png" alt="appstore">
      </a>
@@ -329,7 +344,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
     </div>
 
     <hr width="90%;"/>
-    <h6 class="col-md-offset-1">&#169;2017 LabCar technologies Inc.</h6>
+    <h6 class="col-md-offset-1 txt-footer">&#169;2017 LabCar technologies Inc.</h6>
    </footer>
 
   <script
