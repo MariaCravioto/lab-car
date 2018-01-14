@@ -5,80 +5,253 @@
   background-color: #FFFFFF;
   border: none;
   padding-top: 20px;
-}
+  }
 
-.navbar-toggle {
+ .navbar-toggle {
   margin-left: 20px;
-}
+  }
+
 
 /*
 *section 1
 */
-.section-1 {
+ .btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  }
+
+ .btn-driver1 {
+  margin-top: 20px;
+  }
+
+ .hr {
+  margin-top: 10px;
+  text-align: center;
+  }
+
+ .section-1 {
   background-image: url("../assets/images/taxi.jpg");
   background-position: bottom;
   background-size: cover;
   height: 125vh;
   width: 100%;
-}
+  }
 
-.cuadro {
+ .yellow-box {
   background-color: #FFD700;
   color: #FFFFFF;
   height: 60vh;
   margin-top: 30%;
-}
+  }
 
-.btn-cuadro {
+/*
+*modal starts sesion
+*/
+ .btn-loging {
+  background-color: #FFD700;
+  color: #FFFFFF;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  }
+
+ .box-modal-1 {
+  height: 50vh;
+  text-align: center;
+  }
+
+ .input-box1 {
+  margin-top: 10%;
+  }
+
+ .input-modal-1 {
   background-color: #FFFFFF;
-  border: none;
-  color: #000000;
-}
-.btn-cuadro:hover {
-  background-color: #FFFFFF;
-  color: #000000;
-}
+  height: 40vh;
+  margin-left: 25%;
+  }
 
-.hr {
-margin-top: 10px;
-text-align: center;
-}
+ .modal-content {
+  background-color: #008B8B;
+  text-align: center;
+  }
 
-.abajo {
-  margin-top: 20px;
-}
+/*
+*modal register
+*/
+
+
+
+
+
+
+
+
 
 /*
 *section2
 */
-.section-2 {
-  border: 1px solid #000;
-  height: 100vh;
-}
+ .box {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  height: 70vh;
+  margin-left: 0;
+  margin-top: 2%;
+  text-align: justify;
+  }
+
+ .mobile {
+  margin-left: 10%;
+  margin-top: 2%;
+  }
+
+ .section-2 {
+  background-color: #FFD700;
+  height: 80vh;
+  }
+
+ .txt {
+  font-size: 18px;
+  margin-top: 70px;
+  margin-right: 150px;
+  }
+
+ .txt > p {
+  margin-top: 30px;
+  }
 
 
 /*
 *section3
 */
-.section-3 {
-  border: 1px solid #000;
-  height: 100vh;
-}
+ .black-box {
+  background-color:rgba(0,0,0,0.6);
+  color: #FFFFFF;
+  height: 60vh;
+  margin-right: 0;
+  padding: 100px 30px;
+  }
+
+ .btn-driver2 {
+  background-color: #FFD700;
+  }
+
+ .btn-submit {
+  background-color: #87CEFA;
+  }
+
+ .form-driver {
+  background-color: #A9A9A9;
+  color: #000000;
+  font-weight: bold;
+  padding: 10%;
+  text-align: left;
+  }
+
+ .form-driver > .label-dd {
+  margin-top: 5%;
+  }
+
+ .opc {
+  margin-bottom: 12%;
+  }
+
+ .section-3 {
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 60vh;
+  }
 
 
 /*
 *section4
 */
-.section-4 {
-  border: 1px solid #000;
-  height: 100vh;
+ .btn-route {
+  margin-top: 30px;
+  margin-left: 8%;
 }
+
+ .icon {
+  margin-right: 10px;
+  }
+
+ .icon-box {
+  margin-top: 5%;
+  }
+
+  .input-box {
+  background-color: #FFD700;
+  border: 1px solid #FFFFFF;
+  border-radius: 10%;
+  color: #FFFFFF;
+  display: inline-block;
+  }
+
+ .img-map{
+  height: 90%;
+  margin-top: 3%;
+  width: 100%;
+  }
+
+ .input {
+  color: #FFFFFF;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
+  }
+
+ .map {
+  border: 1px solid #FFFFFF;
+  height: 60vh;
+  margin-right: 5%;
+  margin-top: 5%;
+  }
+
+ .section-4 {
+  background-color: #FFD700;
+  height: 80vh;
+  }
 
 
 /*
 *section5
 */
-.section-5 {
-  border: 1px solid #000;
+ .fa {
+  color: #FFFFFF;
+  padding: 2px;
+  }
+
+ .icons {
+  margin-left: 5%;
+  margin-top: 33%;
+  }
+
+ .list1 > ul > li > a{
+  color: #FFFFFF;
+  display: block;
+  margin-top: 40px;
+  }
+
+ .list2 > ul > li > a{
+  color: #FFFFFF;
+  display: block;
+  margin-top: 30px;
+  }
+
+ .logo {
+  margin-left: 5%;
+  margin-top: 5%;
+  }
+
+ .section-5 {
+  background-color: #000;
+  color: #FFFFFF;
   height: 100vh;
-}
+  }
+
+ .store {
+  margin-top: 23%;
+  }
+
+ .store1{
+  margin-bottom: 20px;
+  }
