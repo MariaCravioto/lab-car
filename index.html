@@ -121,36 +121,39 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
     <section id="registertModal" class="modal fade" role="dialog">
      <div class="modal-dialog">
      <!-- Modal content -->
-     <div class="modal-content">
-      <div class="modal-header">
-       <button type="button" class="closes" data-dismiss="modal">&times;</button>
-      </div>
-
-      <div class="modal-body box-modal-2">
-       <div class="col-md-10 col-sm-10 input-modal-1">
+     <div class="modal-content box-modal-2">
+       <div class= "modal-content form-driver" >
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <button type="button" class="col-sm-12 btn btn-primary btn-r box-i" name="button">Ya tienes una cuenta?</button>
+        <h5><center>O CREA UNA CUENTA NUEVA<center></h5>
         <form>
-  
+         <div class="input-name">
+          <input type= "text" class= "col-md-6 pull-left box-i" id= "recipient-name" name="matricula" placeholder="Nombre">
+          <input type= "text" class= "col-md-6 pull-right box-i" id= "recipient-name" name="matricula" placeholder="Apellido">
+         </div>
+          <input type= "text" class= "form-control tmd box-i" id= "recipient-name" name="matricula" placeholder="Coreo electronico: Ejemplo@correo.mx">
+          <input type= "text" class= "form-control tmd box-i" id= "recipient-name" name="matricula" placeholder="Telefono">
+          <input type= "text" class= "form-control tmd box-i" id= "recipient-name" name="matricula" placeholder="Contraseña">
+          <input type= "text" class= "form-control tmd box-i" id= "recipient-name" name="matricula" placeholder="Ciudad">
+          <input type= "text" class= "form-control tmd box-i" id= "recipient-name" name="matricula" placeholder="Opcional (Codigo de invitación)">
         </form>
+        <div class="dropdown opc">
+         <button class="btn btn-default dropdown-toggle col-md-12 input-box3 box-i" type="button" data-toggle="dropdown">
+          <p class="pull-left tmd">Como te enteraste de nosotros?</p>
+          <span class="caret pull-right tmd"></span>
+         </button>
+         <ul class="dropdown-menu col-md-12">
+          <li class="tmd input-drow"><a href="#">Facebook</a></li>
+          <li class="tmd input-drow"><a href="#">Twitter</a></li>
+          <li class="tmd input-drow"><a href="#">You Tube</a></li>
+          <li class="tmd input-drow"><a href="#">Otro</a></li>
+         </ul>
+        </div>
+         <button type= "button" class= "col-sm-12 btn btn-primary btn-submit tmd" data-dismiss= "modal" >
+          Enviar
+         </button>
        </div>
-      </div>
-     </div>
-    </div>
-   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </section>
    </section>
 
 

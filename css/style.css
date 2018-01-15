@@ -81,19 +81,23 @@
 /*
 *modal register
 */
- .closes {
-  background-color: #A9A9A9;
- }
-
  .box-modal-2 {
   background-color: #A9A9A9;
-  height: 60vh;
+  height: 70vh;
  }
 
+ .btn-r {
+   background-color: #000000;
+   color: #FFFFFF;
+ }
 
+ .box-i {
+   margin-bottom: 2%;
+ }
 
-
-
+.input-drow {
+    background-color: #A9A9A9;
+}
 
 
 
