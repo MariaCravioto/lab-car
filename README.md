@@ -2,40 +2,40 @@
 
 # LAB <AR
 
-**General usage notes:**
+**Notas generales:**
 
-### 1. THE WEB VERSION
+### 1. LA VERSIÓN WEB
 
-- Recreate the following web page.
+- Recrea la siguiente página web.
 
 ![desktop](https://preview.ibb.co/j7YAxR/desktop.png)
 
 
 
-### 2. THE MOBILE VERSION
+### 2. LA VERSIÓN MÓVIL
 
-- And obviously we can not leave out the mobile version, so create it as a second part.
+- Y obviamente no podemos dejar de lado la versión móvil, así que créela como una segunda parte.
 
 ![mobile](https://image.ibb.co/fogVxR/v_movil.png)
 
 
 
-### 3. MODALS
+### 3. MODALES
 
-- As an extra you can add the necessary manners in the web version
+- Como extra, puede agregar los modales necesarios en la versión web.
 
 
-##### Modal of Log in
+##### Modal de inicio de sesión
 
 ![of log in](https://preview.ibb.co/kw2THR/modal_inicio_sesion.png)
 
 
-##### Modal of Sign
+##### Modal de registro
 
 ![log in](https://preview.ibb.co/dfow46/modal_registrate.png)
 
 
 
-##### And modal from Become driver
+##### Y modal de Conviértete en conductor
 
 ![ from become driver](https://preview.ibb.co/mUjVWm/modal_conductor.png)
